@@ -13,9 +13,10 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        maven {
-            url "https://maven.google.com"
-        }
+        // Since 25.4.0, the support libraries are now available through Google's Maven repository.
+//        maven {
+//            url "https://maven.google.com"
+//        }
     }
 }
 
